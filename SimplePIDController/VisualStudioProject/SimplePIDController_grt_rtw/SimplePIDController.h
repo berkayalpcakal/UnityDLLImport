@@ -374,3 +374,4 @@ WRAPPER_API void initialize(void);
 WRAPPER_API void step(void);
 WRAPPER_API void set_inputs(real_T _in1);
 WRAPPER_API real_T get_output();
+WRAPPER_API void set_pid_params(real_T _kp, real_T _ki, real_T _kd);

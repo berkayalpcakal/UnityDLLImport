@@ -352,3 +352,10 @@ real_T get_output()
 {
 	return SimplePIDController_Y.Out1;
 }
+
+void set_pid_params(real_T _kp, real_T _ki, real_T _kd)
+{
+  SimplePIDController_P.kp = _kp;
+  SimplePIDController_P.ki = _ki;
+  SimplePIDController_P.kd = _kd;
+}
