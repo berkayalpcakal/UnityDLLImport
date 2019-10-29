@@ -327,6 +327,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: 1
   controlValue: 0
+  kp: 1
+  ki: 0
+  kd: 0
+  setPIDParams: 0
 --- !u!4 &1852576887
 Transform:
   m_ObjectHideFlags: 0
@@ -366,11 +370,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   graphConfigs:
-  - bufferLength: 500
-    VerticalAxisScale: 0
-    VerticalAxisYmin: 0
-    VerticalAxisYmax: 0
-    autoScale: 1
+  - bufferLength: 600
+    VerticalAxisScale: 2
+    VerticalAxisYmin: -2
+    VerticalAxisYmax: 2
+    autoScale: 0
     labelCurrentValue: 1
     onGetValue:
       m_PersistentCalls:
